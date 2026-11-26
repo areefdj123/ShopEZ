@@ -1,3 +1,85 @@
+@media (min-width: 200px) and (max-width: 767px){
+    nav{
+        padding: 1rem !important;
+    }
+    .page-list{
+        display: none !important; 
+    }
+    .avatar{
+        display: none;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .container{
+        padding: 5rem 1rem !important;
+    }
+    /* header */
+    .hero{
+        flex-direction: column !important;
+    }
+    #mainimg{
+        display: none !important;
+    }
+    #mainheading{
+        font-size: 38px !important;
+        line-height: 50px !important;
+    }
+    #mainpara{
+        font-size: 16px !important;
+    } 
+    .mainbtn{
+        padding: 10px 25px !important;
+        font-size: 14px !important;
+    }
+    /* first section */
+    #section-header-heading{
+        font-size: 18px !important;
+    }
+    /* second section */
+    .container2{
+        padding: 0rem 1rem 5rem !important;
+    }
+
+}
+
+    @media (min-width: 768px) and (max-width: 1023px){
+        nav{
+            padding: 2rem !important;
+        }
+        /* header */
+        .container{
+            padding: 5rem 3rem !important;
+        }
+        #mainimg{
+            right: -45px !important;
+        }
+        .hero{
+            gap: 2rem !important;
+        }
+        #mainheading{
+            font-size: 36px !important;
+            line-height: 40px !important;
+            font-weight: 800 !important;
+        }
+        #mainheading br{
+            display: none !important;
+        }
+        #mainpara{
+            font-size: 16px !important;
+        }
+        .mainbtn{
+            padding: 10px 30px !important;
+            font-size: 14px !important;
+        }
+
+        /* second section */
+
+        .container2{
+            padding: 0rem 3rem 5rem !important;
+        }
+    }
+
 *{
     padding: 0px;
     margin: 0px;
@@ -60,6 +142,10 @@ nav{
     width: 30px;
     border-radius: 50%;
     background-color: gray;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
 }
 .container{
     padding: 5rem;
