@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="mega-menu">
+        <nav>
+            <div class="main-logo">
+                <a href="">
+                    <i class="fa-solid fa-bag-shopping"></i>ShopEZ
+                </a>
+            </div>
+            <div class="navbar-page-list">
+                <ul class="page-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/products.html">Shop</a></li>
+                    <li><a href="pages/products.html?filter=wishlist">Wishlist</a></li>
+                    <li><a href="pages/cart.html">Cart</a></li>
+                    <li><a href="pages/orders.html">Orders</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <a href="pages/products.html?filter=wishlist"><span id="wishlist-count"></span><i id="fav-icon" class="fa-regular fa-heart"></i></a>
+                <a href="pages/cart.html"><span id="cart-count"></span><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="avatar"><a href="pages/login.html"></a></div>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <div class="container">
+            <div class="hero">
+                <div class="maintext">
+                    <h3 id="mainheading">Big Deals <br> Bigger Smiles.</h3>
+                    <p id="mainpara">Up to 50% OFF on your favourite products</p>
+                    <a href="#"><button class="mainbtn">Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+                </div>
+                <div class="mainimage">
+                    <img id="mainimg" src="assets/images/header-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="first-section">
+        <div class="container">
+            <div class="catergory-section-cards">
+                <div class="section-header">
+                    <h3 id="section-header-heading">Shop by Category</h3>
+                    <a id="view-all" href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="category-grid">
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/Man in Black Kurta with Shawl.png" alt="">
+                            <h3 id="category-card-heading">Men's Wear</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/Elegant Vanity Beauty Still Life.png" alt="">
+                            <h3 id="category-card-heading">Beauty</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/sunglasses.jpg" alt="">
+                            <h3 id="category-card-heading">Sunglasses</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/Golden Jewelry Vanity Display.png" alt="">
+                            <h3 id="category-card-heading">Jewelery</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/Maroon Embroidered Wardrobe Style.png" alt="">
+                            <h3 id="category-card-heading">Women's Wear</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="category-card">
+                            <img id="category-card-images" src="assets/images/Modern Kitchen Countertop Still Life.png" alt="">
+                            <h3 id="category-card-heading">Kitchen Set</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="second-section">
+        <div class="container2">
+
+            <div class="featured-section-card">
+                <div class="section-header">
+                    <h3 id="section-header-heading">Featured Products</h3>
+                    <a id="view-all" href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid" id="featured-products"></div>
+            </div>
+        </div>
+    </section>
+<script src="js/app.js"></script>
+</body>
+
+
+</html>
