@@ -248,12 +248,12 @@ header {
     font-family: "Poppins", sans-serif;
     color: white;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .mainbtn:hover {
     border: none;
     background-color: red;
-    transition: ease-in-out 0.5s;
 }
 
 .section-header {
@@ -607,8 +607,14 @@ a #category-card-heading {
     margin-bottom: 0.5rem;
     color: #1e293b;
 }
+.filter-group input[type="range"]{
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14pc;
+}
 .filter-group,
-.filter-group input[type="range"],
 .search-sort-box input,
 .search-sort-box select{
     width: 100%;
