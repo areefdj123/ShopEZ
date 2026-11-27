@@ -37,5 +37,58 @@
             </div>
         </nav>
     </div>
+    <main class="container3 shop-layout">
+        <aside class="filters-sidebar">
+            <div class="filter-header">
+                <h3>Filters</h3>
+                 <button id="reset-filters-btn" class="reset-btn">Reset All</button>
+            </div>
+            <div class="filter-group">
+                <h4>Category</h4>
+                <select id="category-filter">
+                    <option value="All">All categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Men's Wear">Men's Wear</option>
+                    <option value="Women's Wear">Women's Wear</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Sunglasses">Sunglasses</option>
+                    <option value="Jewelery">Jewelery</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <h4>Max Price: Rs. <span id="price-value">10000</span></h4>
+                <input type="range" id="price-filter" min="0" max="10000" step="500" value="10000">
+            </div>
+            <div class="filter-group">
+                <h4>Minimum Rating</h4>
+                <select id="rating-filter">
+                    <option value="0">All Rating</option>
+                    <option value="4.5">4.5 & above</option>
+                    <option value="4">4.0 & above</option>
+                    <option value="3">3.0 & above</option>
+                </select>
+            </div>
+        </aside>
+        <section class="shop-main">
+            <div class="shop-topbar">
+                <h2 id="page-heading">All Products</h2>
+                <div class="search-sort-box">
+                    <input type="text" id="search-input" placeholder="Search Products...">
+                    <select id="sort-select">
+                        <option value="default">Sort by: Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rated</option>
+                        <option value="popularity">Most Popular</option>
+                    </select>
+                </div>
+            </div>
+            <p id="result-count" class="result-text">Loading products...</p>
+            <div class="products-grid" id="shop-products-grid"></div>
+            <div class="pagination-box" id="pagination-controls"></div>
+        </section>
+    </main>
+
+    <script type="module" src="../js/modules/product.js"></script>
 </body>
 </html>

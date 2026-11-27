@@ -7,7 +7,9 @@
     "rating": 4.8,
     "stock": 12,
     "popularity": 98,
-    "image": "https://unsplash.com",
+    "isFeatured": true,
+    "isTrending": true,
+    "image": "../assets/images/headphone1.jpg",
     "description": "Over-ear Bluetooth headphones with active noise cancellation and 30-hour battery life.",
     "reviews": [{ "user": "Ali R.", "rating": 5, "comment": "Amazing sound quality and comfort!" }]
   },
@@ -19,9 +21,11 @@
     "rating": 4.5,
     "stock": 8,
     "popularity": 90,
-    "image": "https://unsplash.com",
+    "isFeatured": true,
+    "isTrending": false,
+    "image": "../assets/images/firstwatchpic.jpg",
     "description": "Water-resistant smartwatch with heart rate monitor, GPS, and sleep tracking.",
-    "reviews": [{ "user": "Sara", "rating": 4, "comment": "Battery lasts almost a full week." }]
+    "reviews": [{ "user": "Sara K.", "rating": 4, "comment": "Battery lasts almost a full week." }]
   },
   {
     "id": 3,
@@ -31,7 +35,9 @@
     "rating": 4.3,
     "stock": 0,
     "popularity": 78,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/speaker1.jpg",
     "description": "Compact waterproof speaker with deep bass and 12-hour playtime.",
     "reviews": []
   },
@@ -43,7 +49,9 @@
     "rating": 4.7,
     "stock": 15,
     "popularity": 85,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/keyboard1.jpg",
     "description": "RGB backlit mechanical keyboard with tactile blue switches.",
     "reviews": []
   },
@@ -55,9 +63,11 @@
     "rating": 4.6,
     "stock": 20,
     "popularity": 92,
-    "image": "https://unsplash.com",
+    "isFeatured": true,
+    "isTrending": false,
+    "image": "../assets/images/kurta1.jpg",
     "description": "Breathable premium cotton kurta tailored for comfort and everyday elegance.",
-    "reviews": [{ "user": "Usman", "rating": 5, "comment": "Fabric quality is top notch." }]
+    "reviews": [{ "user": "Usman T.", "rating": 5, "comment": "Fabric quality is top notch." }]
   },
   {
     "id": 6,
@@ -67,7 +77,9 @@
     "rating": 4.4,
     "stock": 10,
     "popularity": 80,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/jacket1.jpg",
     "description": "Classic fit washed blue denim jacket with button closure.",
     "reviews": []
   },
@@ -79,7 +91,9 @@
     "rating": 4.2,
     "stock": 18,
     "popularity": 74,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/trouser1.jpg",
     "description": "Stretchable cotton chinos suitable for casual and semi-formal wear.",
     "reviews": []
   },
@@ -91,9 +105,11 @@
     "rating": 4.9,
     "stock": 14,
     "popularity": 96,
-    "image": "https://unsplash.com",
+    "isFeatured": true,
+    "isTrending": true,
+    "image": "../assets/images/kurti1.jpg",
     "description": "3-piece embroidered lawn suit with chiffon dupatta.",
-    "reviews": [{ "user": "Ayesha", "rating": 5, "comment": "Exact same color as shown!" }]
+    "reviews": [{ "user": "Ayesha M.", "rating": 5, "comment": "Exact same color as shown!" }]
   },
   {
     "id": 9,
@@ -103,7 +119,9 @@
     "rating": 4.5,
     "stock": 9,
     "popularity": 84,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/kurti2.jpg",
     "description": "Lightweight breathable summer dress with floral print.",
     "reviews": []
   },
@@ -115,7 +133,9 @@
     "rating": 4.6,
     "stock": 7,
     "popularity": 88,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/ladiesbag1.jpg",
     "description": "Faux leather crossbody bag with adjustable strap and gold hardware.",
     "reviews": []
   },
@@ -127,9 +147,11 @@
     "rating": 4.7,
     "stock": 25,
     "popularity": 94,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/cerum1.jpg",
     "description": "Brightening facial serum with 15% Vitamin C and Hyaluronic Acid.",
-    "reviews": [{ "user": "Hina", "rating": 5, "comment": "Gives a natural glow in 2 weeks." }]
+    "reviews": [{ "user": "Hina Z.", "rating": 5, "comment": "Gives a natural glow in 2 weeks." }]
   },
   {
     "id": 12,
@@ -139,7 +161,9 @@
     "rating": 4.4,
     "stock": 16,
     "popularity": 81,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/brush1.jpg",
     "description": "Ultra-soft synthetic bristle brushes with travel pouch.",
     "reviews": []
   },
@@ -151,7 +175,9 @@
     "rating": 4.3,
     "stock": 30,
     "popularity": 76,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/lipstick1.jpg",
     "description": "Long-lasting smudge-proof matte lipsticks in everyday nude and berry shades.",
     "reviews": []
   },
@@ -163,7 +189,9 @@
     "rating": 4.6,
     "stock": 19,
     "popularity": 87,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/sunglasses1.jpg",
     "description": "UV400 protection polarized lenses with lightweight metal frame.",
     "reviews": []
   },
@@ -175,7 +203,9 @@
     "rating": 4.2,
     "stock": 22,
     "popularity": 72,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/sunglasses2.jpg",
     "description": "Timeless matte black frame sunglasses for daily outdoor wear.",
     "reviews": []
   },
@@ -187,7 +217,9 @@
     "rating": 4.5,
     "stock": 0,
     "popularity": 79,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/sunglasses3.jpg",
     "description": "Chic vintage cat-eye sunglasses with gradient tint lenses.",
     "reviews": []
   },
@@ -199,7 +231,9 @@
     "rating": 4.9,
     "stock": 6,
     "popularity": 95,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": true,
+    "image": "../assets/images/jewelery1.jpg",
     "description": "Handcrafted traditional choker necklace with matching earrings.",
     "reviews": []
   },
@@ -211,7 +245,9 @@
     "rating": 4.6,
     "stock": 14,
     "popularity": 83,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/jewelery2.jpg",
     "description": "Dainty adjustable silver chain bracelet for everyday wear.",
     "reviews": []
   },
@@ -223,7 +259,9 @@
     "rating": 4.4,
     "stock": 17,
     "popularity": 77,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/jewelery3.jpg",
     "description": "Sparkling cubic zirconia drop earrings for evening occasions.",
     "reviews": []
   },
@@ -235,7 +273,9 @@
     "rating": 4.7,
     "stock": 11,
     "popularity": 89,
-    "image": "https://unsplash.com",
+    "isFeatured": false,
+    "isTrending": false,
+    "image": "../assets/images/watch2.jpg",
     "description": "Classic minimalist dial wristwatch with genuine brown leather strap.",
     "reviews": []
   }
